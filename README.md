@@ -12,10 +12,10 @@
 
 `python main.py`
 
-命令行输入ipconfig，找到你的IP地址，192.168.xx.xx
+命令行输入ifconfig或ipconfig，找到你的IP地址，192.168.xx.xx
 
 pc浏览器打开http://192.168.xx.xx/，会出现二维码
 
 手机浏览器扫码
 
-结束
+结束，app原理与上述类似，不同之处是server端是restful风格
