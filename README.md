@@ -3,7 +3,11 @@
 ![](http://www.ekaay.com/Bilder/ekaayflowchart.jpg)
 # 使用方法
 `git clone https://github.com/inuyasha2012/tornado-qrcode-login-example.git`
+
 `cd tornado-qrcode-login-example`
+
 `cd example`
+
 `pip install requirements.txt`
+
 `python main.py`
