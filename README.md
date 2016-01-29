@@ -14,7 +14,7 @@
 
 命令行输入ifconfig或ipconfig，找到你的IP地址，192.168.xx.xx
 
-pc浏览器打开http://192.168.xx.xx/，会出现二维码
+pc浏览器打开http://192.168.xx.xx/
 
 手机浏览器扫码
 
