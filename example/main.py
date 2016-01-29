@@ -134,6 +134,7 @@ application = tornado.web.Application([
     (r"/logout", LogoutHandler),
     (r"/pc/([^/]+)", PCLoginHandler),
     (r"/pc", PCLoginRedirectHandler),
+    (r"/", tornado.web.RedirectHandler, {'url': '/pc'}),
     ],
     template_path=os.path.join(os.path.dirname(__file__), "templates"),
     static_path=os.path.join(os.path.dirname(__file__), "static"),
